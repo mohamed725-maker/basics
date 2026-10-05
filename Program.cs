@@ -109,6 +109,18 @@
             double result;
             TryGetPrice("clean code", out result);
             Console.WriteLine(result);
+            #endregion
+
+            #region 10 th
+
+            static void PrintBookInfo(string title, int pages = 300)
+            {
+                Console.WriteLine($"the title is : {title} and the pages is : {pages}");
+
+            }
+            PrintBookInfo("clean code");
+            PrintBookInfo("clean code", 550);
+            #endregion
 
         }
     }
