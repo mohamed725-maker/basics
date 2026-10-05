@@ -17,6 +17,16 @@
 
             #endregion
 
+            #region 3
+
+            static void PrintWelcomeMessage()
+            {
+                Console.WriteLine("Welcome to the Library!");
+            }
+
+            PrintWelcomeMessage();
+            #endregion
+
 
 
         }
