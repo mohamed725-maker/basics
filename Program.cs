@@ -64,6 +64,20 @@
 
             #endregion
 
+            #region 
+            int page = 400;
+
+            static void AddBonusPage(ref int page)
+            {
+                page = page + 50;
+
+                Console.WriteLine(page);
+            }
+            Console.WriteLine(page);
+            AddBonusPage(ref page);
+            Console.WriteLine(page);
+
+            #endregion
 
 
         }
