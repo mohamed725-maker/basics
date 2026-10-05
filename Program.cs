@@ -64,7 +64,7 @@
 
             #endregion
 
-            #region 
+            #region 7
             int page = 400;
 
             static void AddBonusPage(ref int page)
@@ -79,6 +79,18 @@
 
             #endregion
 
+            #region 8
+
+            static void ReplaceArray(ref double[] prices)
+            {
+                prices = new double[] { 10.0, 12.5, 15.0 };
+
+            }
+            Console.WriteLine(Prices.Length);
+            ReplaceArray(ref Prices);
+            Console.WriteLine(Prices.Length);
+
+            #endregion
 
         }
     }
