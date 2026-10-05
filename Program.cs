@@ -36,8 +36,20 @@
             }
             PrintBookTitle("Clean Code");
             #endregion
-            
 
+            #region 5
+            int pages = 400;
+            static void AddBonusPages(int pages)
+            {
+                int result = pages + 50;
+
+                Console.WriteLine(result);
+            }
+            AddBonusPages(pages);
+            Console.WriteLine(pages);
+            /*the value of pages still 400 becuase the parameter is passed by value so the method work on copy object not the original */
+
+            #endregion
 
         }
     }
