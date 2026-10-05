@@ -128,6 +128,18 @@
 
             #endregion
 
+            #region 12th q
+
+            static void PrintAllTitles(params string[] titles)
+            {
+                for (int i = 0; i < titles.Length; i++)
+                {
+                    Console.WriteLine($"the book title is : {titles[i]}");
+                }
+            }
+            PrintAllTitles("clean code", "c# basics", "python");
+            #endregion
+
 
         }
     }
